@@ -9,7 +9,7 @@ L0 L1 C0 C0 SL0 SL1 SB0 SB1
 Here L, C, SL, SB refer to the positions of the left, center, surround-left and surround-back speakers. 
 Index 0 refers to the IR for the left ear, index 1 to the IR for the right ear:
 ```
-L0: left hrir L
+L0: left hrir of L
 L1: right hrir of L
 C0: left hrir of C
 ...
