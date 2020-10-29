@@ -1,8 +1,8 @@
-# Howto-Pulseaudio-module-virtual-surround-sink-for-Binaural-Surround-Downmix
+# How-to-Pulseaudio-module-virtual-surround-sink-for-Binaural-Surround-Downmix
 Short howto for the Pulseaudio module-virtual-surround-sink module, which offers binaural downmix of 7.1 surround signals for headphones.
 
-## Generation of Hrir File
-Create a wav-file named hrir_in.wav containing one impulse response per channel (max 64 samples) in the following order:
+## Generation of HRIR File
+Create a wav-file named hrir_in.wav containing one impulse response (IR) per channel (max 64 samples) in the following order:
 ```
 L0 L1 C0 C0 SL0 SL1 SB0 SB1
 ```
